@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/teal_700"
+    android:weightSum="3"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textViewTitleNotification"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:maxLines="2"
+        android:textSize="18dp"
+        android:textColor="@android:color/white"
+        android:layout_weight="1"
+        tools:text="Ten bai hat"/>
+
+    <ImageView
+        android:id="@+id/imageViewPreNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:src="@drawable/ic_baseline_skip_previous_24"/>
+
+    <ImageView
+        android:id="@+id/imageViewPauseNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:src="@drawable/ic_baseline_play_arrow_24"/>
+
+    <ImageView
+        android:id="@+id/imageViewNextNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:src="@drawable/ic_baseline_skip_next_24"/>
+
+    <ImageView
+        android:id="@+id/imageViewCloseNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:src="@drawable/ic_baseline_close_24"/>
+</LinearLayout>
